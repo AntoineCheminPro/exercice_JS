@@ -20,3 +20,16 @@ console.log (items[1]); // affiche deuxième élément logique, on compte à par
 
 console.log (items[3]); // affiche quatrième élément logique, on compte à partir de 0
 console.log (items[0]);
+
+// exercice 3
+var player = ["John", "Doe", 34, true];
+console.log(player);
+// la variable affiche bien le tableau
+console.log(player[0]);
+console.log(player[1]);
+console.log(player[0]+ " " + player[1]);
+player[2]=40;
+console.log(player);
+console.log(player[3]);
+
+
