@@ -62,6 +62,17 @@ var car = {
 console.log (car);
 // la variable donne le resultat attendu
 car.color = "noire";
-
-console.log ("une "+ car.brand + " " + car.type + " " + car.color + " modéle "+ car.date + " a été apperçue avec à son bord " + car.passengers.lenght +" passagers.");
+var nbrPassengers = car.passengers;
+console.log(nbrPassengers);
+console.log ("une "+ car.brand + " " + car.type + " " + car.color + " modéle "+ car.date + " a été apperçue avec à son bord " + nbrPassengers.length +" passagers.");
 console.log(car["passengers"][0]);
+
+console.log(nbrPassengers.length + " individus ont été apperçu à son bord : " + car.passengers[0] + " " + car.passengers[1] + " " + car.passengers[2] + " et " + car.passengers[3] + ".");
+
+// exercice 6
+var a = 14;
+var b = 38;
+var product=[];
+console.log (a, b, product);
+product[0,1,7] = a, b, 50;
+console.log (a, b, product);
