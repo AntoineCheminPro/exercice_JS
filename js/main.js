@@ -31,5 +31,22 @@ console.log(player[0]+ " " + player[1]);
 player[2]=40;
 console.log(player);
 console.log(player[3]);
+// NO NO NO
 
+var player = {
+    firstname : "John",
+    lastname : "Doe",
+    age : 34,
+    isAdult : true,
+
+};
+console.log(player);
+// la variable contient valeurs et leur index
+console.log(player.firstname);
+console.log(player.lastname);
+console.log(player.firstname + " " + player.lastname);
+player.age = 40;
+console.log(player.age);
+console.log(player.isAdult);
+// beaucoup plus intuitif d'afficher les valeurs
 
