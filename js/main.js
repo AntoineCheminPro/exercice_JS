@@ -11,3 +11,12 @@ console.log(items);
 items =["a","b"];
 console.log(items);
 // show ["a","b"]
+
+// EXERCICE 2
+var items = ["premier élément", "deuxième élément", "troisième élément","quatrième élément" ];
+console.log(items);
+// affiche ["premier élément", "deuxième élément", "troisième élément","quatrième élément" ]
+console.log (items[1]); // affiche deuxième élément logique, on compte à partir de 0
+
+console.log (items[3]); // affiche quatrième élément logique, on compte à partir de 0
+console.log (items[0]);
