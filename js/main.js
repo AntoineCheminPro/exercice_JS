@@ -33,6 +33,7 @@ console.log(player);
 console.log(player[3]);
 // NO NO NO
 
+// exercice 4
 var player = {
     firstname : "John",
     lastname : "Doe",
@@ -50,3 +51,17 @@ console.log(player.age);
 console.log(player.isAdult);
 // beaucoup plus intuitif d'afficher les valeurs
 
+// exercice 5
+var car = {
+    type : "Clio",
+    brand : "Renault",
+    date : 2006,
+    color : "orange",
+    passengers : ["Mike", "Claire", "Anna", "Louis"],
+};
+console.log (car);
+// la variable donne le resultat attendu
+car.color = "noire";
+
+console.log ("une "+ car.brand + " " + car.type + " " + car.color + " modéle "+ car.date + " a été apperçue avec à son bord " + car.passengers.lenght +" passagers.");
+console.log(car["passengers"][0]);
