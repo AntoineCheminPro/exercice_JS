@@ -1,90 +1,22 @@
-// ~~~~~~~~~~~ String ~~~~~~~~
+var items = new Array();
+console.log(items);
+// show [] empty
+items = [];
+console.log(items);
+// same result
+// those two commands creat a new empty array
+//items = ();
+//console.log (items);
+// only "()" is not à command >  syntax error
+items =["a","b"];
+console.log(items);
+// show ["a","b"]
 
-// declare an assign string to variables
-var userFirstname = "Antoine";
-var userLastname ="Chemin";
+// EXERCICE 2
+var items = ["premier élément", "deuxième élément", "troisième élément","quatrième élément" ];
+console.log(items);
+// affiche ["premier élément", "deuxième élément", "troisième élément","quatrième élément" ]
+console.log (items[1]); // affiche deuxième élément logique, on compte à partir de 0
 
-// concat userFirstname and userLastname
-var userFullName = userFirstname + " " + userLastname
-// PRINT INFORMATION IN BROWSER CONSOLE
-console.log(userFullName);
-
-// ~~~~~~~~~ Numbers ~~~~~~~~
-
-var userAge = 44;
-console.log (userAge);
-// add 1 tu userAge variable
-userAge = userAge +1;
-// userAge += 1;
-// userAge ++;
-console.log(userAge);
-
-// substract 1 to userAge variable
-userAge = userAge - 1;
-// userAge -= 1;
-// userAge --;
-console.log (userAge);
-
-//operations example
-var a = 42;
-var b = 16;
-
-console.log(a + b);
-console.log(a - b);
-console.log(a * b);
-console.log(a / b);
-// modulo example
-console.log(a%b)
-a *=b;
-console.log(a);
-
-//~~~~~~~~~~ Boolean ~~~~~~~~
-
-var available = true;
-var madeInEu = false;
-
-console.log (available);
-console.log (madeInEu);
-
-
-// ~~~~~~~~~ Array ~~~~~~~~~~
-
-// Array with numerical index
-var user =[
-    "Antoine",
-    "Chemin",
-    44,
-    "Rouen",
-    "male",
-    true,
-   [    
-        "dog",
-        "cat",
-        "golden fish",
-        [
-            "golden", "maincoon", "yorkshire"
-        ]
-    ]
-];
-// display the first element in array
-console.log(user[0]);
-user [0] = "ANTOINE";
-console.log (user[0]);
-console.log("your user name is : "+ user[0]+ " " +  user[1]);
-console.log(user[0] + " has a " + user[6][1]  + " it is a " + user[6][3][1]);
-
-// accessing letter string with array notation
-var texte = "Lorem Ipsum dolor";
-console.log(texte[0]);
-
-// Associative array (or JSON object)
-
-user = {
-    firstname : "Antoine",
-    lastname : "Gossart",
-    age : 44,
-    city : "Rouen",
-};
-console.log(user);
-console.log("Hello "+ user.firstname);
-console.log("Hello "+ user["firstname"]);
+console.log (items[3]); // affiche quatrième élément logique, on compte à partir de 0
+console.log (items[0]);
