@@ -74,5 +74,7 @@ var a = 14;
 var b = 38;
 var product=[];
 console.log (a, b, product);
-product[0,1,7] = a, b, 50;
+product[0]=a;
+product[1]=b;
+product[7]=50;
 console.log (a, b, product);
